@@ -147,7 +147,7 @@ def plot_indicator_charts(df, sector, indicators, years):
         y='Value',
         color='Indicator',
         markers=True,
-        title=f"📈 Trend of Selected Indicators in {sector}",
+        title=f"📈{indicators}",
         hover_data={'Value': ':.2f', 'Year': True},
         line_shape='spline',  # smooth lines
         width=900,
@@ -186,22 +186,22 @@ def plot_indicator_charts(df, sector, indicators, years):
 
 
     # -------------------
-    # Year-over-Year Growth (per indicator)
+    # Year-over-Year percentage change(per indicator)
     # -------------------
     df_yoy = filtered.copy()
-    df_yoy['YoY_Growth'] = df_yoy.groupby('Indicator')['Value'].pct_change() * 100
-    df_yoy.dropna(subset=['YoY_Growth'], inplace=True)
+    df_yoy['Percentage change(%)'] = df_yoy.groupby('Indicator')['Value'].pct_change() * 100
+    df_yoy.dropna(subset=['Percentage change(%)'], inplace=True)
 
     if not df_yoy.empty:
         fig_growth = px.bar(
             df_yoy,
             x='Year',
-            y='YoY_Growth',
+            y='Percentage change(%)',
             color='Indicator',
             barmode='group',
-            title=f"📊 Year-over-Year Growth of Selected Indicators",
-            hover_data={'YoY_Growth': ':.2f', 'Year': True},
-            text='YoY_Growth',
+            title=f"📊 Growth rate (YoY Percentage change)",
+            hover_data={'Percentage change(%)': ':.2f', 'Year': True},
+            text='Percentage change(%)',
             width=900,
             height=500
         )
@@ -212,7 +212,7 @@ def plot_indicator_charts(df, sector, indicators, years):
             template='plotly_white',
             plot_bgcolor="#f9f9f9",
             paper_bgcolor="#f9f9f9",
-            title_font=dict(size=24, color="#1f2c56"),
+            title_font=dict(size=20, color="#1f2c56"),
             
             xaxis=dict(
                 title='Year',
