@@ -69,7 +69,6 @@ selected_years = st.sidebar.multiselect(
     default=[max(year_options)]
 )
 
-
 # ==============================
 # 🧭 PAGE CONFIGURATION
 # ==============================
@@ -80,16 +79,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
-
 # ==============================
 # 🏷️ HEADER
 # ==============================
 st.image(IMAGE, width=1000)
-st.title("📊 OCE Macroeconomic Indicators Dashboard")
+st.title("📊 Macroeconomic Dashboard")
 st.markdown("""
 <p>
-This dashboard Visualises Rwandas economy through visualizing key macro-ecoonomic indicators.
+Dashboard provides a visualization of key macroeconomic indicators (past, forecasts and targets).
 </p>
 """, unsafe_allow_html=True)
 
