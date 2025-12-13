@@ -79,9 +79,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ==============================
+# =========================================================================================================================
 # 🏷️ HEADER
-# ==============================
+# ==============================================================================================================================
 st.image(IMAGE, width=1000)
 #st.subheader("📊 Macroeconomic Dashboard")
 import streamlit as st
@@ -104,10 +104,112 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# ==========================================================================================================================
+# 🏷️ COVER PAGE TITLE
 
-# ==============================
+st.markdown(
+    """
+    <style>
+    .cover-title {
+        color: #002F6C;
+        font-size: 42px;
+        font-weight: 800;
+        border-bottom: 4px solid #002F6C;
+        padding-bottom: 6px;
+        margin-bottom: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown("<div class='cover-title'>📊 Macroeconomic Dashboard – Key Indicators</div>", unsafe_allow_html=True)
+
+import pandas as pd
+import re
+
+def load_and_clean_data(file, indicators=None):
+    df = pd.read_csv(file)
+    df = df.loc[:, ~df.columns.str.contains('^Unnamed')]  # remove unnamed cols
+    df = df.head(66)  # first 66 rows
+
+    # Melt to long format
+    df = df.melt(id_vars=['Sector', 'Indicator'], var_name='Year', value_name='Value')
+
+    # Clean numeric columns
+    df['Value'] = df['Value'].apply(lambda x: re.sub(r'[,%]', '', str(x)) if isinstance(x, str) else x)
+    df['Value'] = pd.to_numeric(df['Value'], errors='coerce')
+
+    # Clean year column
+    df['Year'] = df['Year'].apply(lambda x: re.sub(r'[^0-9]', '', str(x)) if isinstance(x, str) else x)
+    df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
+
+    # Clean text columns
+    df['Sector'] = df['Sector'].astype(str).str.strip().str.title()
+    df['Indicator'] = df['Indicator'].astype(str).str.strip().str.title()
+
+    df.dropna(subset=['Value', 'Year'], inplace=True)
+
+    # Optional: filter for specific indicators
+    if indicators:
+        # Normalize indicators: strip, lower case
+        df['Indicator_norm'] = df['Indicator'].str.strip().str.lower()
+        indicators_norm = [i.strip().lower() for i in indicators]
+
+        # Keep only matching indicators
+        df = df[df['Indicator_norm'].isin(indicators_norm)].copy()
+        df.drop(columns=['Indicator_norm'], inplace=True)
+
+    return df
+
+# Example usage:
+FILE = "your_data.csv"
+
+gdp_indicators = [
+    'Nominal GDP (Million USD, Level)',
+    'Nominal GDP (Billion RWF, Level)',
+    'Real GDP (Billion RWF, Level)',
+    'Agriculture GDP (Constant prices)'
+]
+
+data = load_and_clean_data(FILE, indicators=gdp_indicators)
+print(data.head())
+
+
+df_gdp = data[data['Indicator'].isin(gdp_indicators)]
+df0 = df_gdp.pivot(index='Year', columns='Indicator', values='Value').reset_index()
+
+df = pd.DataFrame(df0).set_index("Year")
+col1, col2, col3, col4 = st.columns(4)
+
+col1.metric("Nominal GDP (Billion RWF, Level)", f"{df.iloc[-1,0]}")
+col2.metric("Nominal GDP (Million USD, Level)", f"{df.iloc[-1,1]}")
+col3.metric("Real GDP (Billion RWF, Level)", f"{df.iloc[-1,2]}")
+col4.metric("Agriculture GDP(Constant prices)", f"{df.iloc[-1,3]}")
+
+c1, c2 = st.columns(2)
+
+with c1:
+    st.subheader("Nominal GDP (Billion RWF, Level)")
+    st.line_chart(df["Nominal GDP (Billion RWF, Level)"])
+
+with c2:
+    st.subheader("Nominal GDP (Million USD, Level)")
+    st.line_chart(df["Nominal GDP (Million USD, Level)"])
+
+c3, c4 = st.columns(2)
+
+with c3:
+    st.subheader("Nominal GDP (Million USD, Level)")
+    st.line_chart(df["Nominal GDP (Million USD, Level"])
+
+with c4:
+    st.subheader("Agriculture GDP(Constant prices)")
+    st.line_chart(df["Agriculture GDP(Constant prices)"])
+
+# ======================================================================================================================
 # 📈 KEY METRICS
-# ==============================
+# =========================================================================================================================
 def compute_key_metrics(df, sector, indicator, years):
     filtered = df[(df['Sector'] == sector) & (df['Indicator'].isin(indicator))]
     if years:
