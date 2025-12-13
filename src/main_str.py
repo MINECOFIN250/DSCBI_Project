@@ -83,12 +83,27 @@ st.set_page_config(
 # 🏷️ HEADER
 # ==============================
 st.image(IMAGE, width=1000)
-st.title("📊 Macroeconomic Dashboard")
-st.markdown("""
-<p>
-Dashboard provides a visualization of key macroeconomic indicators (past, forecasts and targets).
-</p>
-""", unsafe_allow_html=True)
+#st.subheader("📊 Macroeconomic Dashboard")
+import streamlit as st
+
+st.markdown(
+    """
+    <style>
+    .dashboard-title {
+        color: #002F6C;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    "<div class='dashboard-title'>📊 Macroeconomic Dashboard</div>",
+    unsafe_allow_html=True
+)
+
 
 # ==============================
 # 📈 KEY METRICS
