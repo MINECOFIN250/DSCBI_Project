@@ -105,25 +105,6 @@ st.markdown(
 )
 
 # ==========================================================================================================================
-# 🏷️ COVER PAGE TITLE
-
-st.markdown(
-    """
-    <style>
-    .cover-title {
-        color: #002F6C;
-        font-size: 42px;
-        font-weight: 800;
-        border-bottom: 4px solid #002F6C;
-        padding-bottom: 6px;
-        margin-bottom: 20px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-st.markdown("<div class='cover-title'>📊 Macroeconomic Dashboard – Key Indicators</div>", unsafe_allow_html=True)
 
 import pandas as pd
 import re
@@ -162,51 +143,6 @@ def load_and_clean_data(file, indicators=None):
 
     return df
 
-# Example usage:
-FILE = "your_data.csv"
-
-gdp_indicators = [
-    'Nominal GDP (Million USD, Level)',
-    'Nominal GDP (Billion RWF, Level)',
-    'Real GDP (Billion RWF, Level)',
-    'Agriculture GDP (Constant prices)'
-]
-
-data = load_and_clean_data(FILE, indicators=gdp_indicators)
-print(data.head())
-
-
-df_gdp = data[data['Indicator'].isin(gdp_indicators)]
-df0 = df_gdp.pivot(index='Year', columns='Indicator', values='Value').reset_index()
-
-df = pd.DataFrame(df0).set_index("Year")
-col1, col2, col3, col4 = st.columns(4)
-
-col1.metric("Nominal GDP (Billion RWF, Level)", f"{df.iloc[-1,0]}")
-col2.metric("Nominal GDP (Million USD, Level)", f"{df.iloc[-1,1]}")
-col3.metric("Real GDP (Billion RWF, Level)", f"{df.iloc[-1,2]}")
-col4.metric("Agriculture GDP(Constant prices)", f"{df.iloc[-1,3]}")
-
-c1, c2 = st.columns(2)
-
-with c1:
-    st.subheader("Nominal GDP (Billion RWF, Level)")
-    st.line_chart(df["Nominal GDP (Billion RWF, Level)"])
-
-with c2:
-    st.subheader("Nominal GDP (Million USD, Level)")
-    st.line_chart(df["Nominal GDP (Million USD, Level)"])
-
-c3, c4 = st.columns(2)
-
-with c3:
-    st.subheader("Nominal GDP (Million USD, Level)")
-    st.line_chart(df["Nominal GDP (Million USD, Level"])
-
-with c4:
-    st.subheader("Agriculture GDP(Constant prices)")
-    st.line_chart(df["Agriculture GDP(Constant prices)"])
-
 # ======================================================================================================================
 # 📈 KEY METRICS
 # =========================================================================================================================
@@ -227,16 +163,18 @@ def compute_key_metrics(df, sector, indicator, years):
         "Max": max_value,
         "Average": avg_value,
         "Min": min_value,
-        "Long-Term Projection": long_term_projection
+        "Medium-Term Average": long_term_projection
     }
 
 metrics = compute_key_metrics(data, selected_sector, selected_indicators, selected_years)
 
 if metrics:
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Max", f"{metrics['Max']:.2f}")
-    col2.metric("Average", f"{metrics['Average']:.2f}")
-    col3.metric("Long-Term Projection", f"{metrics['Long-Term Projection']:.2f}")
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Minimum", f"{metrics['Min']:.2f}")
+    col2.metric("Maximum", f"{metrics['Max']:.2f}")
+    col3.metric("Average", f"{metrics['Average']:.2f}")
+    col4.metric("Medium-Term Average", f"{metrics['Medium-Term Average']:.2f}")
+   
 else:
     st.warning("No data available for the selected combination of filters.")
 
@@ -297,7 +235,6 @@ def plot_indicator_charts(df, sector, indicators, years):
         ),
         legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
     )
-
     #fig_trend.update_traces(mode="lines+markers", line=dict(width=3), marker=dict(size=8))
     st.plotly_chart(fig_trend, use_container_width=True)
 
@@ -342,7 +279,7 @@ def plot_indicator_charts(df, sector, indicators, years):
                 tickfont=dict(color='black', size=12)
             ),
             yaxis=dict(
-                title='YoY Growth (%)',
+                title='Percentage change(%)',
                 showline=True,          # ensure the y-axis line is visible
                 linecolor='black',      # axis line color
                 showgrid=True,
@@ -354,9 +291,7 @@ def plot_indicator_charts(df, sector, indicators, years):
 
         st.plotly_chart(fig_growth, use_container_width=True)
     else:
-        st.info("Not enough data to compute Year-over-Year growth.")
-
-
+        st.info("Not enough data availlable to make the chart, Please select more years")
 
 plot_indicator_charts(data, selected_sector, selected_indicators, selected_years)
 
@@ -374,10 +309,10 @@ if selected_indicators and selected_years:
     if not filtered_table.empty:
         # Pivot to get indicators as rows and years as columns
         table_display = filtered_table.pivot(index='Indicator', columns='Year', values='Value')
-        st.subheader(f"Values for Selected Indicators in {selected_sector} Sector")
+        st.subheader(f"📈{selected_sector}")
         st.dataframe(table_display.style.format("{:.2f}"))
     else:
-        st.warning("No data available for the selected combination of sector, indicators, and years.")
+        st.warning("Not enough data available to make a table for selection")
 
 # 🚀 SECTION 10: RUN THE APP
 # Streamlit entry point for running the dashboard application.
