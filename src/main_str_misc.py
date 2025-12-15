@@ -16,7 +16,7 @@ pd.set_option('display.max_rows', None)
 # 📂 FILE PATHS
 # ==============================
 DIR_DATA = Path(__file__).resolve().parent.parent
-FILE = DIR_DATA / "data" / "Basic_Macro_Indicators.csv"
+FILE = DIR_DATA / "data" / "MacroSEI.csv"
 IMAGE = DIR_DATA / "image" / "minecofin.png"
 
 # ==============================
@@ -46,32 +46,67 @@ def load_and_clean_data(file):
 
 data = load_and_clean_data(FILE)
 
-# ==============================
+# ================================================================================================================
 # 🎛️ SIDEBAR FILTERS
-# ==============================
-st.sidebar.header("Filter Options")
+# ======================================================================================================================
+st.markdown("### 🔎 Filters")
 
+# Create a single column for the filter
+col1, = st.columns([2])
+with col1:
+    selected_type = st.selectbox(
+        "Period",
+        options=["All", "Actual", "Projection"]
+    )
+
+# Filter dataframe
+df_filtered = data.copy()
+if selected_type != "All":
+    df_filtered = df_filtered[df_filtered["Data type"] == selected_type]
+
+# Display filtered dataframe
+st.dataframe(
+    df_filtered,
+    use_container_width=True,
+    height=450
+)
+
+
+# Multi-select sectors
+st.sidebar.header("Filter Options")
 sector_options = sorted(data["Sector"].unique())
-selected_sector = st.sidebar.selectbox("Select Sector", sector_options)
+selected_sector = st.sidebar.selectbox("Select sector", sector_options)
+default=[sector_options[5]]  # Select first sector by default
 
 # Multi-select indicators
-indicator_options = sorted(data[data["Sector"] == selected_sector]["Indicator"].unique())
-selected_indicators = st.sidebar.multiselect(
-    "Select Indicator(s)",
-    options=indicator_options,
-    default=[indicator_options[0]]  # Select first indicator by default
-)
+indicator_options = sorted(
+    data[data["Sector"] == selected_sector]["Indicator"].unique())
+select_all = st.sidebar.checkbox("Select all indicators", value=False)
+if select_all:
+    selected_indicators = indicator_options
+else:
+    selected_indicators = st.sidebar.multiselect(
+        "Select indicator",
+        options=indicator_options,
+        default=[indicator_options[0]]  # Select first indicator by default
+    )
 
+# Multi-select years dropdown
 year_options = sorted(data["Year"].unique())
-selected_years = st.sidebar.multiselect(
-    "Select Year(s)",
-    options=year_options,
-    default=[max(year_options)]
-)
+select_all = st.sidebar.checkbox("Select all years", value=False)
 
-# ===================================================================================
+if select_all:
+    selected_years = year_options
+else:
+    selected_years = st.sidebar.multiselect(
+        "Select Year(s)",
+        options=year_options,
+        default=[min(year_options)]
+    )
+
+# ==============================
 # 🧭 PAGE CONFIGURATION
-# =======================================================================================
+# ==============================
 st.set_page_config(
     page_title="OCE Macroeconomic Dashboard",
     page_icon="📊",
@@ -176,9 +211,9 @@ if metrics:
     col4.metric("Medium-Term Average", f"{metrics['Medium-Term Average']:.2f}")
    
 else:
-    st.warning("No data available for the selected combination of filters.")
+    st.warning("No data available, please select data.")
 
-# ==============================
+# ============================================================================================
 # 📊 CHARTS
 #=============================================================================================
 
@@ -190,30 +225,30 @@ def plot_indicator_charts(df, sector, indicators, years):
     ].sort_values(by=['Indicator', 'Year'])
 
     if filtered.empty:
-        st.warning("No enough information selected, please select more")
+        st.warning("No enough information selected, please select more.")
         return
 
-    # ------------------------------------------------------------------------------------------
+    # --------------------------------------------------------------------------------
     # Trend Chart
-    # --------------------------------------------------------------------------------------------------
+    # ---------------------------------------------------------------------------------
     fig_trend = px.line(
         filtered,
         x='Year',
         y='Value',
         color='Indicator',
         markers=True,
-        title=f"📈{indicators}",
+        title=f"📈{selected_sector}",
         hover_data={'Value': ':.2f', 'Year': True},
         line_shape='spline',  # smooth lines
         width=900,
         height=500
     )
-    fig_trend.update_traces(mode="lines+markers", line=dict(width=3))
+    fig_trend.update_traces(mode="lines+markers", line = dict(width=3))
     fig_trend.update_layout(
         template='plotly_white',
         plot_bgcolor="#f9f9f9",
         paper_bgcolor="#f9f9f9",
-        title_font=dict(size=24, color="#1f2c56"),
+        title_font=dict(size=20, color="#1f2c56"),
         #legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         xaxis=dict(
             title='Year',
@@ -229,19 +264,18 @@ def plot_indicator_charts(df, sector, indicators, years):
             title='Value',
             showline=True,          # ensure the y-axis line is visible
             linecolor='black',      # axis line color
-            showgrid=True,
-            gridcolor='lightgrey',
-            tickfont=dict(color='black', size=12)
+            showgrid = True,
+            gridcolor ='lightgrey',
+            tickfont = dict(color='black', size=12)
         ),
-        legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
-    )
+        legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1))
+
     #fig_trend.update_traces(mode="lines+markers", line=dict(width=3), marker=dict(size=8))
     st.plotly_chart(fig_trend, use_container_width=True)
 
-
-    # -------------------
+    # -----------------------------------------------------------------------------------------
     # Year-over-Year percentage change(per indicator)
-    # -------------------
+    # --------------------------------------------------------------------------------------------------
     df_yoy = filtered.copy()
     df_yoy['Percentage change(%)'] = df_yoy.groupby('Indicator')['Value'].pct_change() * 100
     df_yoy.dropna(subset=['Percentage change(%)'], inplace=True)
@@ -288,34 +322,30 @@ def plot_indicator_charts(df, sector, indicators, years):
             ),
             legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
         )
-
         st.plotly_chart(fig_growth, use_container_width=True)
     else:
-        st.info("Not enough data availlable to make the chart, Please select more years")
+        st.info("Not enough data selected to make the chart, please select more years")
 
 plot_indicator_charts(data, selected_sector, selected_indicators, selected_years)
 
-
-# ===================================================================================================================================================
+# =========================================================================================================
 # 📊 DISPLAY TABLE FOR MULTI-INDICATORS
-# ================================================================================================================================================
+# ==============================================================================================================
 if selected_indicators and selected_years:
     filtered_table = data[
         (data['Sector'] == selected_sector) &
         (data['Indicator'].isin(selected_indicators)) &
-        (data['Year'].isin(selected_years))
-    ]
-
+        (data['Year'].isin(selected_years))]
     if not filtered_table.empty:
         # Pivot to get indicators as rows and years as columns
         table_display = filtered_table.pivot(index='Indicator', columns='Year', values='Value')
         st.subheader(f"📈{selected_sector}")
         st.dataframe(table_display.style.format("{:.2f}"))
     else:
-        st.warning("Not enough data available to make a table for selection")
+        st.warning("Not enough data selected to make the table, please select more data")
 
 # 🚀 SECTION 10: RUN THE APP
 # Streamlit entry point for running the dashboard application.
 # ==============================
 if __name__ == "__main__":
-    st.write("Customer Churn Analysis Dashboard is running...")
+    st.write("Macroeconomic Dashboard is running...")
