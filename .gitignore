@@ -101,7 +101,7 @@ src/*/_version.py
 src - Copy/
 
 # Ignore docs output
-docs/
+
 
 # Ignore utilities
 utils/
