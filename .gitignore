@@ -1,39 +1,30 @@
-# Byte-compiled / optimized / DLL files
+############################
+# PYTHON
+############################
 __pycache__/
 *.py[cod]
-
-# C extensions
 *.so
 
-# Distribution / packaging
-.Python
+############################
+# VIRTUAL ENVIRONMENTS
+############################
 env/
+.venv/
+venv/
+.env
+
+############################
+# BUILD / PACKAGING
+############################
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
+############################
+# TEST / COVERAGE
+############################
 htmlcov/
 .tox/
 .coverage
@@ -43,65 +34,63 @@ nosetests.xml
 coverage.xml
 *.cover
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+############################
+# LOGS
+############################
 *.log
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# DotEnv configuration
-.env
-
-# Database
-*.db
-*.rdb
-
-# Pycharm
-.idea
-
-# VS Code
+############################
+# IDEs / EDITORS
+############################
+.idea/
 .vscode/
-
-# Spyder
 .spyproject/
+.mypy_cache/
 
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
-
-# Mac OS-specific storage files
+############################
+# OS FILES
+############################
 .DS_Store
-
-# vim
 *.swp
 *.swo
 
-# Mypy cache
-.mypy_cache/
+############################
+# JUPYTER
+############################
+.ipynb_checkpoints/
 
-# Jupyter Book
-_build/
+############################
+# PROJECT-SPECIFIC IGNORES
+############################
 
-# python-dotenv
-.env
-
-# setuptools-scm/
-src/*/_version.py
-
-# ignoring some files
+# Ignore copied source
 src - Copy/
-!notebooks/Database.ipynb
+
+# Ignore docs output
 docs/
-!data/Basic_Macro_Indicators_Cleaned.csv
-requirements.txt
+
+# Ignore utilities
 utils/
-env.example
+
+# Ignore GitHub workflow files
 .github/
+
+# Ignore static build output
 _static/
+
+# Ignore all notebooks EXCEPT Database.ipynb
+notebooks/*
+!notebooks/Database.ipynb
+
+# Ignore all data EXCEPT cleaned macro file
+data/*
+!data/Basic_Macro_Indicators_Cleaned.csv
+
+# Ignore this specific service
 services/sector_service.py
+
+############################
+# ALLOW IMPORTANT FILES
+############################
+!requirements.txt
+!env.example
