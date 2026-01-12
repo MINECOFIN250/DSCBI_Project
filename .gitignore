@@ -94,14 +94,37 @@ _build/
 # setuptools-scm/
 src/*/_version.py
 
-# ignoring some files
+# PROJECT-SPECIFIC IGNORES
+############################
+
+# Ignore copied source
 src - Copy/
-!notebooks/Database.ipynb
+
+# Ignore docs output
 docs/
-!data/Basic_Macro_Indicators_Cleaned.csv
-requirements.txt
+
+# Ignore utilities
 utils/
-env.example
+
+# Ignore GitHub workflow files
 .github/
+
+# Ignore static build output
 _static/
+
+# Ignore all notebooks EXCEPT Database.ipynb
+notebooks/*
+!notebooks/Database.ipynb
+
+# Ignore all data EXCEPT cleaned macro file
+data/*
+!data/Basic_Macro_Indicators_Cleaned.csv
+
+# Ignore this specific service
 services/sector_service.py
+
+############################
+# ALLOW IMPORTANT FILES
+############################
+!requirements.txt
+!env.example
