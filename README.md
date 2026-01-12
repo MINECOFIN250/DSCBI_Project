@@ -7,10 +7,10 @@
 Project is housed in GitHub for easy collaboration among developers (using push&pull, branch features), easy sharing, and external access.
  #### Link: https://github.com/MINECOFIN250/DSCBI_Project
 ### Run dashboard
-### 1.VS Code: terminal 
+#### 1.VS Code: terminal 
 ** Project is hosted by VS Code just for visualization and display of the dashboard structure
 ** VS Code can be used to run the dashboard app using VS Code terminal
-#### command prompt (CMD) is preferable:
+#### 2. command prompt (CMD) is preferable:
 1. set the main project path as in local computer i.e., D:\Documents\AIMS_DSCBI\Projects\MINECOFIN\Macro_Dashboard. Therefore, you can access main folder structure as described earlier above
 2. go to scripts folder i.e., D:\Documents\AIMS_DSCBI\Projects\MINECOFIN\Macro_Dashboard cd src:
 3. then type ""
