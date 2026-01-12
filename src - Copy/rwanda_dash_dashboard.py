@@ -62,10 +62,10 @@ all_indicators = sorted(df['Indicator'].unique())
 min_year = int(df['Year'].min())
 max_year = int(df['Year'].max())
 
-# Initialize the Dashboard app
+# Initialize the Dash app
 app = dash.Dash(__name__)
 
-# --- 2. Dashboard App Layout ---
+# --- 2. Dash App Layout ---
 app.layout = html.Div(style={'backgroundColor': '#282a36', 'color': '#f8f8f2', 'fontFamily': 'Arial, sans-serif'}, children=[
     html.H1("RWANDA'S ECONOMY MACROECONOMIC DASHBOARD", style={'textAlign': 'center', 'padding': '20px', 'color': '#8be9fd'}),
     html.H2("Macro-Economic Indicators - Historical & Projections", style={'textAlign': 'center', 'color': '#f1fa8c'}),
@@ -81,7 +81,7 @@ app.layout = html.Div(style={'backgroundColor': '#282a36', 'color': '#f8f8f2', '
                 options=[{'label': i, 'value': i} for i in all_sectors],
                 value=all_sectors[0],
                 clearable=False,
-                style={'backgroundColor': "#34373f", 'color': '#f8f8f2'}
+                style={'backgroundColor': '#6272a4', 'color': '#f8f8f2'}
             ),
 
             html.Label("Indicator 1 for Chart", style={'marginTop': '20px'}),

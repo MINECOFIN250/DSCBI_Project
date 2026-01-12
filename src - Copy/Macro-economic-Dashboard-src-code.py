@@ -69,83 +69,33 @@ selected_years = st.sidebar.multiselect(
     default=[max(year_options)]
 )
 
-# ===================================================================================
+
+# ==============================
 # 🧭 PAGE CONFIGURATION
-# =======================================================================================
+# ==============================
 st.set_page_config(
-    page_title="OCE Macroeconomic Dashboard",
+    page_title="OCE Macroeconomic Indicators Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# =========================================================================================================================
+
+
+# ==============================
 # 🏷️ HEADER
-# ==============================================================================================================================
+# ==============================
 st.image(IMAGE, width=1000)
-#st.subheader("📊 Macroeconomic Dashboard")
-import streamlit as st
+st.title("📊 OCE Macroeconomic Indicators Dashboard")
+st.markdown("""
+<p>
+This dashboard Visualises Rwandas economy through visualizing key macro-ecoonomic indicators.
+</p>
+""", unsafe_allow_html=True)
 
-st.markdown(
-    """
-    <style>
-    .dashboard-title {
-        color: #002F6C;
-        font-size: 42px;
-        font-weight: 700;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-st.markdown(
-    "<div class='dashboard-title'>📊 Macroeconomic Dashboard</div>",
-    unsafe_allow_html=True
-)
-
-# ==========================================================================================================================
-
-import pandas as pd
-import re
-
-def load_and_clean_data(file, indicators=None):
-    df = pd.read_csv(file)
-    df = df.loc[:, ~df.columns.str.contains('^Unnamed')]  # remove unnamed cols
-    df = df.head(66)  # first 66 rows
-
-    # Melt to long format
-    df = df.melt(id_vars=['Sector', 'Indicator'], var_name='Year', value_name='Value')
-
-    # Clean numeric columns
-    df['Value'] = df['Value'].apply(lambda x: re.sub(r'[,%]', '', str(x)) if isinstance(x, str) else x)
-    df['Value'] = pd.to_numeric(df['Value'], errors='coerce')
-
-    # Clean year column
-    df['Year'] = df['Year'].apply(lambda x: re.sub(r'[^0-9]', '', str(x)) if isinstance(x, str) else x)
-    df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
-
-    # Clean text columns
-    df['Sector'] = df['Sector'].astype(str).str.strip().str.title()
-    df['Indicator'] = df['Indicator'].astype(str).str.strip().str.title()
-
-    df.dropna(subset=['Value', 'Year'], inplace=True)
-
-    # Optional: filter for specific indicators
-    if indicators:
-        # Normalize indicators: strip, lower case
-        df['Indicator_norm'] = df['Indicator'].str.strip().str.lower()
-        indicators_norm = [i.strip().lower() for i in indicators]
-
-        # Keep only matching indicators
-        df = df[df['Indicator_norm'].isin(indicators_norm)].copy()
-        df.drop(columns=['Indicator_norm'], inplace=True)
-
-    return df
-
-# ======================================================================================================================
+# ==============================
 # 📈 KEY METRICS
-# =========================================================================================================================
+# ==============================
 def compute_key_metrics(df, sector, indicator, years):
     filtered = df[(df['Sector'] == sector) & (df['Indicator'].isin(indicator))]
     if years:
@@ -163,18 +113,16 @@ def compute_key_metrics(df, sector, indicator, years):
         "Max": max_value,
         "Average": avg_value,
         "Min": min_value,
-        "Medium-Term Average": long_term_projection
+        "Long-Term Projection": long_term_projection
     }
 
 metrics = compute_key_metrics(data, selected_sector, selected_indicators, selected_years)
 
 if metrics:
-    col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Minimum", f"{metrics['Min']:.2f}")
-    col2.metric("Maximum", f"{metrics['Max']:.2f}")
-    col3.metric("Average", f"{metrics['Average']:.2f}")
-    col4.metric("Medium-Term Average", f"{metrics['Medium-Term Average']:.2f}")
-   
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Max", f"{metrics['Max']:.2f}")
+    col2.metric("Average", f"{metrics['Average']:.2f}")
+    col3.metric("Long-Term Projection", f"{metrics['Long-Term Projection']:.2f}")
 else:
     st.warning("No data available for the selected combination of filters.")
 
@@ -190,19 +138,19 @@ def plot_indicator_charts(df, sector, indicators, years):
     ].sort_values(by=['Indicator', 'Year'])
 
     if filtered.empty:
-        st.warning("No enough information selected, please select more")
+        st.warning("No data available for the selected combination.")
         return
 
-    # ------------------------------------------------------------------------------------------
+    # -------------------
     # Trend Chart
-    # --------------------------------------------------------------------------------------------------
+    # -------------------
     fig_trend = px.line(
         filtered,
         x='Year',
         y='Value',
         color='Indicator',
         markers=True,
-        title=f"📈{indicators}",
+        title=f"📈 Trend of Selected Indicators in {sector}",
         hover_data={'Value': ':.2f', 'Year': True},
         line_shape='spline',  # smooth lines
         width=900,
@@ -235,27 +183,28 @@ def plot_indicator_charts(df, sector, indicators, years):
         ),
         legend=dict(title="Indicator", orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
     )
+
     #fig_trend.update_traces(mode="lines+markers", line=dict(width=3), marker=dict(size=8))
     st.plotly_chart(fig_trend, use_container_width=True)
 
 
     # -------------------
-    # Year-over-Year percentage change(per indicator)
+    # Year-over-Year Growth (per indicator)
     # -------------------
     df_yoy = filtered.copy()
-    df_yoy['Percentage change(%)'] = df_yoy.groupby('Indicator')['Value'].pct_change() * 100
-    df_yoy.dropna(subset=['Percentage change(%)'], inplace=True)
+    df_yoy['YoY_Growth'] = df_yoy.groupby('Indicator')['Value'].pct_change() * 100
+    df_yoy.dropna(subset=['YoY_Growth'], inplace=True)
 
     if not df_yoy.empty:
         fig_growth = px.bar(
             df_yoy,
             x='Year',
-            y='Percentage change(%)',
+            y='YoY_Growth',
             color='Indicator',
             barmode='group',
-            title=f"📊 Growth rate (YoY percentage change)",
-            hover_data={'Percentage change(%)': ':.2f', 'Year': True},
-            text='Percentage change(%)',
+            title=f"📊 Year-over-Year Growth of Selected Indicators",
+            hover_data={'YoY_Growth': ':.2f', 'Year': True},
+            text='YoY_Growth',
             width=900,
             height=500
         )
@@ -266,7 +215,7 @@ def plot_indicator_charts(df, sector, indicators, years):
             template='plotly_white',
             plot_bgcolor="#f9f9f9",
             paper_bgcolor="#f9f9f9",
-            title_font=dict(size=20, color="#1f2c56"),
+            title_font=dict(size=24, color="#1f2c56"),
             
             xaxis=dict(
                 title='Year',
@@ -279,7 +228,7 @@ def plot_indicator_charts(df, sector, indicators, years):
                 tickfont=dict(color='black', size=12)
             ),
             yaxis=dict(
-                title='Percentage change(%)',
+                title='YoY Growth (%)',
                 showline=True,          # ensure the y-axis line is visible
                 linecolor='black',      # axis line color
                 showgrid=True,
@@ -291,14 +240,16 @@ def plot_indicator_charts(df, sector, indicators, years):
 
         st.plotly_chart(fig_growth, use_container_width=True)
     else:
-        st.info("Not enough data availlable to make the chart, Please select more years")
+        st.info("Not enough data to compute Year-over-Year growth.")
+
+
 
 plot_indicator_charts(data, selected_sector, selected_indicators, selected_years)
 
 
-# ===================================================================================================================================================
+# ==============================
 # 📊 DISPLAY TABLE FOR MULTI-INDICATORS
-# ================================================================================================================================================
+# ==============================
 if selected_indicators and selected_years:
     filtered_table = data[
         (data['Sector'] == selected_sector) &
@@ -309,10 +260,10 @@ if selected_indicators and selected_years:
     if not filtered_table.empty:
         # Pivot to get indicators as rows and years as columns
         table_display = filtered_table.pivot(index='Indicator', columns='Year', values='Value')
-        st.subheader(f"📈{selected_sector}")
+        st.subheader(f"Values for Selected Indicators in {selected_sector} Sector")
         st.dataframe(table_display.style.format("{:.2f}"))
     else:
-        st.warning("Not enough data available to make a table for selection")
+        st.warning("No data available for the selected combination of sector, indicators, and years.")
 
 # 🚀 SECTION 10: RUN THE APP
 # Streamlit entry point for running the dashboard application.

@@ -93,3 +93,15 @@ _build/
 
 # setuptools-scm/
 src/*/_version.py
+
+# ignoring some files
+src - Copy/
+!notebooks/Database.ipynb
+docs/
+!data/Basic_Macro_Indicators_Cleaned.csv
+requirements.txt
+utils/
+env.example
+.github/
+_static/
+services/sector_service.py

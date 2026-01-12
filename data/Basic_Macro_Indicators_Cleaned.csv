@@ -1,0 +1,1241 @@
+sector,subsector,component,unit,year,value,datatype
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2011,4084,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2011,6803,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2011,5314,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2011,1508,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2011,928,Actual
+Real Sector,GDP and components,Services,Constant prices,2011,2347,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2011,7.2,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2011,8.3,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2011,,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2011,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2011,6.4,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2011,28.3,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2011,30.9,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2011,-1.2,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2011,32.1,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2011,464,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2011,489,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2011,953,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2011,14,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2011,1569,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2011,609,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2011,2178,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2011,32,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2011,-1105,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2011,-16.2,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2011,-477,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2011,-7,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2011,112.1,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2011,1.6,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2011,3.7,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2011,252,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2011,5.3,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2011,9,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2011,2.1,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2011,6.9,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2011,559.9,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2011,14.8,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2011,180.9,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2011,4.8,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2011,379,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2011,10,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2011,894.3,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2011,23.7,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2011,511,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2011,13.5,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2011,-334.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2011,-8.7,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2011,-18.7,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2011,781,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2011,,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2011,510,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2011,,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2011,-212.36,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2011,,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2011,600,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2011,,Actual
+Other memo items,Population,Population,"Million, Level",2011,10.2,Actual
+Other memo items,Population,Annual change in population,%,2011,2,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2011,667,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2011,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2011,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2011,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2012,4642,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2012,7557,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2012,5773,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2012,1611,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2012,1005,Actual
+Real Sector,GDP and components,Services,Constant prices,2012,2619,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2012,4.6,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2012,3.9,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2012,6.3,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2012,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2012,7.4,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2012,27.4,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2012,26.7,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2012,-2.8,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2012,29.5,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2012,591,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2012,530,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2012,1120,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2012,14.8,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2012,1864,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2012,510,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2012,2374,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2012,31.4,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2012,-1274,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2012,-16.9,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2012,-741,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2012,-9.8,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2012,269.6,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2012,3.6,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2012,3.73,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2012,282,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2012,4.1,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2012,10,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2012,2.6,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2012,7.1,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2012,685.9,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2012,15.7,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2012,228.5,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2012,5.2,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2012,457.4,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2012,10.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2012,1037.4,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2012,23.7,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2012,614,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2012,14,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2012,-351.5,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2012,-7.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2012,-18.3,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2012,890,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2012,14,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2012,683,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2012,33.9,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2012,-137.1,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2012,-35,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2012,614,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2012,2,Actual
+Other memo items,Population,Population,"Million, Level",2012,10.5,Actual
+Other memo items,Population,Annual change in population,%,2012,2.9,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2012,720,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2012,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2012,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2012,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2013,4988,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2013,7714,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2013,6046,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2013,1664,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2013,1099,Actual
+Real Sector,GDP and components,Services,Constant prices,2013,2756,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2013,2.6,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2013,3.6,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2013,4.2,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2013,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2013,8.7,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2013,26,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2013,27.3,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2013,1.5,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2013,25.8,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2013,703,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2013,596,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2013,1299,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2013,16.8,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2013,1854,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2013,600,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2013,2453,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2013,31.8,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2013,-1151,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2013,-14.9,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2013,-585,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2013,-7.6,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2013,233.8,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2013,3,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2013,3.81,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2013,294,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2013,4.8,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2013,14,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2013,3.2,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2013,10.6,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2013,646.9,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2013,13.3,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2013,282.0379536,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2013,5.8,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2013,364.9,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2013,7.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2013,1078.1,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2013,22.2,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2013,661,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2013,13.6,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2013,-431.2,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2013,-8.8,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2013,-16.2,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2013,1028,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2013,16,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2013,758,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2013,11.1,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2013,-187.3,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2013,37,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2013,647,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2013,5,Actual
+Other memo items,Population,Population,"Million, Level",2013,10.7,Actual
+Other memo items,Population,Annual change in population,%,2013,1.9,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2013,721,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2013,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2013,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2013,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2014,5548,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2014,8130,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2014,6418,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2014,1775,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2014,1127,Actual
+Real Sector,GDP and components,Services,Constant prices,2014,2949,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2014,5.3,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2014,2.1,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2014,1.8,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2014,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2014,9.7,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2014,25.1,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2014,24.7,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2014,0.8,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2014,23.9,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2014,723,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2014,605,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2014,1328,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2014,16.3,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2014,1992,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2014,662,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2014,2654,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2014,32.6,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2014,-1269,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2014,-15.6,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2014,-930,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2014,-11.4,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2014,314,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2014,3.9,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2014,3.74,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2014,304,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2014,3.9,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2014,16,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2014,3.8,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2014,11.8,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2014,1338.8,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2014,25.3,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2014,727.9937747,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2014,13.7,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2014,474.3,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2014,9,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2014,1546.4,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2014,29.2,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2014,903,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2014,17.1,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2014,-207.6,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2014,-3.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2014,-12.8,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2014,1224,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2014,19,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2014,906,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2014,19.5,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2014,-21.15,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2014,-89,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2014,682,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2014,5,Actual
+Other memo items,Population,Population,"Million, Level",2014,11,Actual
+Other memo items,Population,Annual change in population,%,2014,2.8,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2014,739,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2014,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2014,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2014,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2015,6081,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2015,8451,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2015,6987,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2015,1863,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2015,1228,Actual
+Real Sector,GDP and components,Services,Constant prices,2015,3256,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2015,0.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2015,4.5,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2015,2.5,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2015,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2015,8.8,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2015,25.9,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2015,24.8,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2015,0,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2015,24.7,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2015,682,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2015,767,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2015,1449,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2015,17.1,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2015,1919,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2015,1020,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2015,2939,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2015,34.8,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2015,-1237,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2015,-14.6,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2015,-1078,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2015,-12.8,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2015,162.1,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2015,1.9,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2015,4,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2015,338,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2015,3.6,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2015,18,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2015,4.5,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2015,13.6,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2015,1418.7,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2015,24.6,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2015,830.2377803,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2015,14.4,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2015,415.9,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2015,7.2,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2015,1623.3,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2015,28.1,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2015,987,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2015,17.1,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2015,-204.6,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2015,-3.5,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2015,-10.6,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2015,1482,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2015,21,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2015,1178,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2015,30,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2015,39.5,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2015,-287,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2015,720,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2015,6,Actual
+Other memo items,Population,Population,"Million, Level",2015,11.3,Actual
+Other memo items,Population,Annual change in population,%,2015,2.7,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2015,748,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2015,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2015,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2015,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2016,6768,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2016,8597,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2016,7404,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2016,1935,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2016,1310,Actual
+Real Sector,GDP and components,Services,Constant prices,2016,3489,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2016,5.3,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2016,7.3,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2016,5.7,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2016,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2016,7.8,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2016,26.9,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2016,22.5,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2016,0.4,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2016,22,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2016,727,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2016,790,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2016,1517,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2016,17.6,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2016,2021,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2016,1035,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2016,3056,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2016,35.5,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2016,-1294,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2016,-15.1,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2016,-1321,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2016,-15.4,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2016,279.7,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2016,3.3,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2016,4.22,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2016,363,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2016,3.9,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2016,22,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2016,4.8,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2016,16.8,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2016,1541.7,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2016,23.9,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2016,1000.367249,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2016,15.5,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2016,373.7,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2016,5.8,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2016,1764.4,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2016,27.4,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2016,1147,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2016,17.8,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2016,-222.7,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2016,-3.4,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2016,-9.1,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2016,1595,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2016,8,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2016,1285,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2016,9.1,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2016,24.95,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2016,-37,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2016,787,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2016,9,Actual
+Other memo items,Population,Population,"Million, Level",2016,11.5,Actual
+Other memo items,Population,Annual change in population,%,2016,1.8,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2016,748,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2016,41.1,Actual
+Other memo items,Laborforce,Working age population,16+ years,2016,6573248,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2016,50.6,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2017,7621,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2017,9166,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2017,7694,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2017,2027,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2017,1330,Actual
+Real Sector,GDP and components,Services,Constant prices,2017,3684,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2017,7.5,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2017,0.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2017,4.8,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2017,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2017,7.3,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2017,27.4,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2017,23.2,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2017,0.2,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2017,23,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2017,1040.5,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2017,863.4,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2017,1904,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2017,20.8,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2017,2014.4,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2017,1046.8,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2017,3061,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2017,33.4,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2017,-974,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2017,-10.6,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2017,-851,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2017,-9.3,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2017,274,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2017,3,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2017,4.16,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2017,381.1,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2017,4.2,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2017,26,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2017,5.4,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2017,20.3,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2017,1615.8,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2017,22.3,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2017,1052.420556,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2017,14.5,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2017,330.2,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2017,4.6,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2017,1930.3,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2017,26.7,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2017,1323.5,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2017,18.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2017,-314.6,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2017,-4.7,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2017,-9.28,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2017,1792,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2017,12,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2017,1439,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2017,13.9,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2017,69.33,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2017,178,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2017,831,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2017,6,Actual
+Other memo items,Population,Population,"Million, Level",2017,11.8,Actual
+Other memo items,Population,Annual change in population,%,2017,2.4,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2017,777,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2017,0.434459791,Actual
+Other memo items,Laborforce,Working age population,16+ years,2017,6812978,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2017,52.9,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2018,8310,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2018,9651,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2018,8350,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2018,2151,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2018,1445,Actual
+Real Sector,GDP and components,Services,Constant prices,2018,4041,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2018,0.9,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2018,1.1,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2018,1.4,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2018,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2018,8.2,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2018,26.6,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2018,23.4,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2018,0.1,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2018,23.3,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2018,1129.6,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2018,913.6,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2018,2043,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2018,21.2,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2018,2284.1,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2018,1053.4,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2018,3338,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2018,34.6,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2018,-1155,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2018,-12,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2018,-955,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2018,-9.9,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2018,366.2,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2018,3.8,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2018,4.06,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2018,392,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2018,4.5,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2018,28,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2018,5.5,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2018,22.5,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2018,1820.4,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2018,22.8,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2018,1198.973442,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2018,15,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2018,358.9,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2018,4.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2018,2117.7,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2018,26.5,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2018,1436.9,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2018,18,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2018,-297.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2018,-4.4,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2018,-8.9,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2018,2071,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2018,16,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2018,1599,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2018,10.8,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2018,8.5,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2018,-88,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2018,861,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2018,4,Actual
+Other memo items,Population,Population,"Million, Level",2018,12.1,Actual
+Other memo items,Population,Annual change in population,%,2018,2.5,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2018,798,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2018,46.04208728,Actual
+Other memo items,Laborforce,Working age population,16+ years,2018,3778996,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2018,55.5,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2019,9461,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2019,10498,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2019,9138,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2019,2259,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2019,1684,Actual
+Real Sector,GDP and components,Services,Constant prices,2019,4376,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2019,4.2,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2019,6.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2019,2.4,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2019,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2019,8.7,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2019,26,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2019,22.3,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2019,-1,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2019,23.3,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2019,1239.7,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2019,1015,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2019,2255,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2019,21.5,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2019,2704.6,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2019,1032.5,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2019,3737,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2019,35.6,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2019,-1465,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2019,-14,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2019,-1225,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2019,-11.7,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2019,263.2,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2019,2.5,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2019,4.36,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2019,458,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2019,5.9,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2019,32,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2019,6.5,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2019,25.5,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2019,2065,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2019,23.5,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2019,1402.522258,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2019,16,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2019,394.8,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2019,4.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2019,2581.5,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2019,29.4,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2019,1666.9,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2019,19,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2019,-516.5,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2019,-6.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2019,-10.8,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2019,2391,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2019,15,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2019,1802,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2019,12.6,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2019,69.94,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2019,722,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2019,901,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2019,5,Actual
+Other memo items,Population,Population,"Million, Level",2019,12.4,Actual
+Other memo items,Population,Annual change in population,%,2019,2.5,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2019,847,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2019,46.52202608,Actual
+Other memo items,Laborforce,Working age population,16+ years,2019,7320998.945,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2019,55,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2020,9893,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2020,10467,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2020,8830,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2020,2278,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2020,1613,Actual
+Real Sector,GDP and components,Services,Constant prices,2020,4133,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2020,7.6,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2020,3.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2020,7.7,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2020,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2020,9.9,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2020,24.8,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2020,23.9,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2020,-1.1,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2020,25,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2020,1407.5,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2020,532.9,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2020,1940,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2020,18.5,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2020,3057.8,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2020,541.8,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2020,3600,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2020,34.4,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2020,-1650,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2020,-15.8,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2020,-1238,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2020,-11.8,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2020,152.6,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2020,1.5,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2020,1.15,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2020,120.5,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2020,6.2,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2020,45,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2020,9.3,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2020,35.6,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2020,2203.1,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2020,22.9,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2020,1475.608714,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2020,15.3,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2020,437.6,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2020,4.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2020,2934.2,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2020,30.4,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2020,1901.1,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2020,19.7,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2020,-731.1,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2020,-8.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2020,-13.56,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2020,2420,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2020,1,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2020,2386,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2020,32.9,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2020,164.44,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2020,135,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2020,945,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2020,5,Actual
+Other memo items,Population,Population,"Million, Level",2020,12.7,Actual
+Other memo items,Population,Annual change in population,%,2020,2.4,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2020,824,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2020,45.05322302,Actual
+Other memo items,Laborforce,Working age population,16+ years,2020,7563918.128,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2020,56.5,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2021,11125,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2021,11233,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2021,9789,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2021,2424,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2021,1828,Actual
+Real Sector,GDP and components,Services,Constant prices,2021,4624,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2021,3.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2021,1.9,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2021,0.8,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2021,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2021,10.7,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2021,24,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2021,25,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2021,-1.5,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2021,26.5,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2021,1531.3,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2021,617.4,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2021,2149,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2021,19.1,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2021,3189.5,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2021,741.8,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2021,3931,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2021,35,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2021,-1658,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2021,-14.8,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2021,-1207,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2021,-10.7,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2021,233.4,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2021,2.1,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2021,1.33,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2021,149.9,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2021,5.2,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2021,48,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2021,10.6,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2021,37.8,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2021,2573.2,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2021,24.5,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2021,1621.689282,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2021,15.4,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2021,566.1,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2021,5.4,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2021,3344.2,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2021,31.9,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2021,2089.4,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2021,19.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2021,-771.1,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2021,-8.7,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2021,-14.13,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2021,2854,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2021,18,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2021,2743,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2021,14.8,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2021,540.64,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2021,229,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2021,990,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2021,5,Actual
+Other memo items,Population,Population,"Million, Level",2021,13,Actual
+Other memo items,Population,Annual change in population,%,2021,2.4,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2021,864,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2021,46.50115252,Actual
+Other memo items,Laborforce,Working age population,16+ years,2021,7812992.579,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2021,61,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2022,14164,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2022,13712,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2022,10588,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2022,2461,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2022,1918,Actual
+Real Sector,GDP and components,Services,Constant prices,2022,5187,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2022,15.9,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2022,21.6,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2022,13.9,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2022,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2022,9.2,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2022,25.5,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2022,25.2,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2022,-0.4,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2022,25.6,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2022,2112.5,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2022,886.4,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2022,2999,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2022,21.9,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2022,4100.4,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2022,876.5,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2022,4977,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2022,36.3,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2022,-1988,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2022,-14.5,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2022,-1240,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2022,-9,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2022,305.1,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2022,2.2,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2022,2.92,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2022,400.2,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2022,4.4,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2022,51,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2022,12.9,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2022,38.5,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2022,3102.2,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2022,25.1,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2022,1876.773591,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2022,15.2,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2022,824.2,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2022,6.7,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2022,4061.1,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2022,32.9,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2022,2467.9,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2022,20,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2022,-958.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2022,-9.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2022,-16.17,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2022,3509,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2022,23,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2022,3101,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2022,13.6,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2022,1081.34,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2022,100,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2022,1033,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2022,4,Actual
+Other memo items,Population,Population,"Million, Level",2022,13.2,Actual
+Other memo items,Population,Annual change in population,%,2022,1.6,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2022,1038,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2022,41.3305433,Actual
+Other memo items,Laborforce,Working age population,16+ years,2022,7424204,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2022,63.6,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2023,17176,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2023,14704,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2023,11461,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2023,2502,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2023,2114,Actual
+Real Sector,GDP and components,Services,Constant prices,2023,5767,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2023,11.7,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2023,6.4,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2023,14,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2023,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2023,8.2,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2023,26.5,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2023,24,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2023,0.4,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2023,23.6,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2023,2466.5,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2023,1057,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2023,3524,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2023,24,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2023,4834.7,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2023,956.1,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2023,5791,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2023,39.4,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2023,-2368,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2023,-16.1,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2023,-1665,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2023,-11.3,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2023,457.6,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2023,3.1,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2023,3.84,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2023,563.9,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2023,4.5,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2023,62,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2023,11.7,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2023,49.9,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2023,3399.6,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2023,21.5,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2023,2287.371797,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2023,14.5,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2023,711.3,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2023,4.5,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2023,4375.1,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2023,27.7,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2023,2856.7,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2023,18.1,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2023,-975.6,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2023,-7.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2023,-11.96,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2023,4377,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2023,25,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2023,3682,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2023,19.9,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2023,1250.46,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2023,16,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2023,1168,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2023,13,Actual
+Other memo items,Population,Population,"Million, Level",2023,13.5,Actual
+Other memo items,Population,Annual change in population,%,2023,2.2,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2023,1089,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2023,39.97233741,Actual
+Other memo items,Laborforce,Working age population,16+ years,2023,7634209,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2023,64.2,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2024,19918,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2024,15058,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2024,12480,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2024,2635,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2024,2325,Actual
+Real Sector,GDP and components,Services,Constant prices,2024,6363,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2024,8.2,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2024,6.8,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2024,4.8,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2024,34.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2024,7.5,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2024,27.2,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2024,22.8,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2024,0.7,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2024,22.1,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2024,3201.6,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2024,1095.6,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2024,4297,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2024,28.5,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2024,5545.4,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2024,1005.5,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2024,6551,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2024,43.5,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2024,-2344,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2024,-15.6,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2024,-1815,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2024,-12.1,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2024,572.9,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2024,3.8,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2024,3.85,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2024,579.5,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2024,5.5,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2024,72,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2024,12.5,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2024,59,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2024,3811.1,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2024,20.7,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2024,2593.321524,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2024,14.1,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2024,757.8,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2024,4.1,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2024,4927.9,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2024,26.8,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2024,3172.9,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2024,17.3,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2024,-1116.8,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2024,-6.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2024,-11.19,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2024,5199,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2024,19,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2024,4228,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2024,14.3,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2024,1287.19,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2024,3,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2024,1323,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2024,13,Actual
+Other memo items,Population,Population,"Million, Level",2024,13.8,Actual
+Other memo items,Population,Annual change in population,%,2024,2.2,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2024,1091,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2024,54.63181817,Actual
+Other memo items,Laborforce,Working age population,16+ years,2024,7856801,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2024,68.4,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2025,22817,Actual
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2025,16080,Actual
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2025,13371,Actual
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2025,2775,Actual
+Real Sector,GDP and components,Industry GDP,Constant prices,2025,2563,Actual
+Real Sector,GDP and components,Services,Constant prices,2025,6782,Actual
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2025,7.1,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2025,7.5,Actual
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2025,7.1,Actual
+Real Sector,GDP and components,Total investment,Percentage of GDP,2025,33.7,Actual
+Real Sector,GDP and components,Government investment,Percetange of GDP,2025,6.9,Actual
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2025,26.9,Actual
+Real Sector,GDP and components,National savings,Percentage of GDP,2025,22.3,Actual
+Real Sector,GDP and components,Government savings,Percetange of GDP,2025,-1.2,Actual
+Real Sector,GDP and components,Private savings,Percentage of GDP,2025,23.5,Actual
+External sector,Exports,Exports of goods,"Million USD, Level",2025,3071.8,Actual
+External sector,Exports,Exports of services,"Million USD, Level",2025,1157.2,Actual
+External sector,Exports,Exports of goods & services,"Million USD, Level",2025,4229,Actual
+External sector,Exports,Exports of goods & services,Percentage of GDP,2025,26.3,Actual
+External sector,Imports,Imports of goods,"Million USD, Level",2025,5548.5,Actual
+External sector,Imports,Imports of services,"Million USD,Level",2025,1116.7,Actual
+External sector,Imports,Imports of goods & services,"Million USD, Level",2025,6665,Actual
+External sector,Imports,Imports of goods & services,Percentage of GDP,2025,41.5,Actual
+External sector,Trade balance,Trade balance,"Million USD, Level",2025,-2477,Actual
+External sector,Trade balance,Trade balance,Percentage of GDP,2025,-15.4,Actual
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2025,-2069,Actual
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2025,-12.9,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2025,567,Actual
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2025,3.5,Actual
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2025,3.93,Actual
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2025,631.6,Actual
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2025,4.1,Actual
+Debt sector,Debt,Central government debt,Percentage of GDP,2025,71.8,Actual
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2025,13.4,Actual
+Debt sector,Debt,Central government external debt,Percentage of GDP,2025,58.4,Actual
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2025,4174,Actual
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2025,19.4,Actual
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2025,3106.4,Actual
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2025,14.2,Actual
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2025,614.6,Actual
+Fiscal sector,Revenue,Grants,Percentage of GDP,2025,2.9,Actual
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2025,5188.3,Actual
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2025,24.1,Actual
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2025,3416.8,Actual
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2025,15.9,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2025,-1014.4,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2025,-5.5,Actual
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2025,-8.58,Actual
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2025,5961,Actual
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2025,15,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2025,4977,Actual
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2025,17.3,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2025,1676.05,Actual
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2025,30,Actual
+Monetary sector,Exchange rate,Exchange rate,RWF/USD,2025,1419,Actual
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2025,7,Actual
+Other memo items,Population,Population,"Million, Level",2025,14.1,Actual
+Other memo items,Population,Annual change in population,%,2025,2.2,Actual
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2025,1140,Actual
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2025,,Actual
+Other memo items,Laborforce,Working age population,16+ years,2025,,Actual
+Other memo items,Laborforce,Labour force participation rate,%,2025,,Actual
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2026,26010,Projection
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2026,17499,Projection
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2026,14367,Projection
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2026,2926,Projection
+Real Sector,GDP and components,Industry GDP,Constant prices,2026,2872,Projection
+Real Sector,GDP and components,Services,Constant prices,2026,7235,Projection
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2026,6.3,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2026,3.7,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2026,5.6,Projection
+Real Sector,GDP and components,Total investment,Percentage of GDP,2026,34.7,Projection
+Real Sector,GDP and components,Government investment,Percetange of GDP,2026,6.9,Projection
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2026,27.8,Projection
+Real Sector,GDP and components,National savings,Percentage of GDP,2026,21.5,Projection
+Real Sector,GDP and components,Government savings,Percetange of GDP,2026,-0.6,Projection
+Real Sector,GDP and components,Private savings,Percentage of GDP,2026,22.2,Projection
+External sector,Exports,Exports of goods,"Million USD, Level",2026,3595.4,Projection
+External sector,Exports,Exports of services,"Million USD, Level",2026,1226.2,Projection
+External sector,Exports,Exports of goods & services,"Million USD, Level",2026,4822,Projection
+External sector,Exports,Exports of goods & services,Percentage of GDP,2026,27.6,Projection
+External sector,Imports,Imports of goods,"Million USD, Level",2026,6190,Projection
+External sector,Imports,Imports of services,"Million USD,Level",2026,1226.4,Projection
+External sector,Imports,Imports of goods & services,"Million USD, Level",2026,7416,Projection
+External sector,Imports,Imports of goods & services,Percentage of GDP,2026,42.4,Projection
+External sector,Trade balance,Trade balance,"Million USD, Level",2026,-2595,Projection
+External sector,Trade balance,Trade balance,Percentage of GDP,2026,-14.8,Projection
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2026,-2321,Projection
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2026,-13.3,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2026,1071.7,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2026,6.1,Projection
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2026,3.93,Projection
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2026,688.5,Projection
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2026,4.8,Projection
+Debt sector,Debt,Central government debt,Percentage of GDP,2026,74.7,Projection
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2026,13.7,Projection
+Debt sector,Debt,Central government external debt,Percentage of GDP,2026,61,Projection
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2026,4952.9,Projection
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2026,20.3,Projection
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2026,3708.2,Projection
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2026,15.3,Projection
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2026,649.6,Projection
+Fiscal sector,Revenue,Grants,Percentage of GDP,2026,2.7,Projection
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2026,5773.4,Projection
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2026,23.6,Projection
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2026,3853.9,Projection
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2026,15.8,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2026,-820.6,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2026,-7.4,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2026,-9.96,Projection
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2026,7123,Projection
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2026,19,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2026,5855,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2026,17.2,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2026,1437.38,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2026,-14,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2026,1502,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2026,6,Projection
+Other memo items,Population,Population,"Million, Level",2026,14.4,Projection
+Other memo items,Population,Annual change in population,%,2026,2.2,Projection
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2026,1214,Projection
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2026,,Projection
+Other memo items,Laborforce,Working age population,16+ years,2026,,Projection
+Other memo items,Laborforce,Labour force participation rate,%,2026,,Projection
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2027,29374,Projection
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2027,19014,Projection
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2027,15434,Projection
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2027,3088,Projection
+Real Sector,GDP and components,Industry GDP,Constant prices,2027,3197,Projection
+Real Sector,GDP and components,Services,Constant prices,2027,7723,Projection
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2027,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2027,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2027,4.4,Projection
+Real Sector,GDP and components,Total investment,Percentage of GDP,2027,33.6,Projection
+Real Sector,GDP and components,Government investment,Percetange of GDP,2027,7.1,Projection
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2027,26.5,Projection
+Real Sector,GDP and components,National savings,Percentage of GDP,2027,20.6,Projection
+Real Sector,GDP and components,Government savings,Percetange of GDP,2027,0.6,Projection
+Real Sector,GDP and components,Private savings,Percentage of GDP,2027,19.9,Projection
+External sector,Exports,Exports of goods,"Million USD, Level",2027,3968.7,Projection
+External sector,Exports,Exports of services,"Million USD, Level",2027,1307.3,Projection
+External sector,Exports,Exports of goods & services,"Million USD, Level",2027,5276,Projection
+External sector,Exports,Exports of goods & services,Percentage of GDP,2027,27.7,Projection
+External sector,Imports,Imports of goods,"Million USD, Level",2027,6413.7,Projection
+External sector,Imports,Imports of services,"Million USD,Level",2027,1256.6,Projection
+External sector,Imports,Imports of goods & services,"Million USD, Level",2027,7670,Projection
+External sector,Imports,Imports of goods & services,Percentage of GDP,2027,40.3,Projection
+External sector,Trade balance,Trade balance,"Million USD, Level",2027,-2445,Projection
+External sector,Trade balance,Trade balance,Percentage of GDP,2027,-12.9,Projection
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2027,-2156,Projection
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2027,-11.3,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2027,1172.3,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2027,6.2,Projection
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2027,3.95,Projection
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2027,750.4,Projection
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2027,5.1,Projection
+Debt sector,Debt,Central government debt,Percentage of GDP,2027,75.1,Projection
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2027,13.9,Projection
+Debt sector,Debt,Central government external debt,Percentage of GDP,2027,61.2,Projection
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2027,5706.6,Projection
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2027,20.6,Projection
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2027,4437.9,Projection
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2027,16.2,Projection
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2027,615.7,Projection
+Fiscal sector,Revenue,Grants,Percentage of GDP,2027,2.2,Projection
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2027,6539.1,Projection
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2027,23.6,Projection
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2027,4343.7,Projection
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2027,15.7,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2027,-832.5,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2027,-5.4,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2027,-8.03,Projection
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2027,8463,Projection
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2027,19,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2027,6931,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2027,18,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2027,1586.03,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2027,10,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2027,1596,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2027,6,Projection
+Other memo items,Population,Population,"Million, Level",2027,14.7,Projection
+Other memo items,Population,Annual change in population,%,2027,2.2,Projection
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2027,1290,Projection
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2027,,Projection
+Other memo items,Laborforce,Working age population,16+ years,2027,,Projection
+Other memo items,Laborforce,Labour force participation rate,%,2027,,Projection
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2028,32919,Projection
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2028,20653,Projection
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2028,16511,Projection
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2028,3259,Projection
+Real Sector,GDP and components,Industry GDP,Constant prices,2028,3491,Projection
+Real Sector,GDP and components,Services,Constant prices,2028,8245,Projection
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2028,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2028,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2028,5,Projection
+Real Sector,GDP and components,Total investment,Percentage of GDP,2028,31.5,Projection
+Real Sector,GDP and components,Government investment,Percetange of GDP,2028,7.3,Projection
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2028,24.2,Projection
+Real Sector,GDP and components,National savings,Percentage of GDP,2028,21.6,Projection
+Real Sector,GDP and components,Government savings,Percetange of GDP,2028,2.1,Projection
+Real Sector,GDP and components,Private savings,Percentage of GDP,2028,19.4,Projection
+External sector,Exports,Exports of goods,"Million USD, Level",2028,4313.3,Projection
+External sector,Exports,Exports of services,"Million USD, Level",2028,1394.9,Projection
+External sector,Exports,Exports of goods & services,"Million USD, Level",2028,5708,Projection
+External sector,Exports,Exports of goods & services,Percentage of GDP,2028,27.6,Projection
+External sector,Imports,Imports of goods,"Million USD, Level",2028,6361.8,Projection
+External sector,Imports,Imports of services,"Million USD,Level",2028,1238.1,Projection
+External sector,Imports,Imports of goods & services,"Million USD, Level",2028,7600,Projection
+External sector,Imports,Imports of goods & services,Percentage of GDP,2028,36.8,Projection
+External sector,Trade balance,Trade balance,"Million USD, Level",2028,-2049,Projection
+External sector,Trade balance,Trade balance,Percentage of GDP,2028,-9.9,Projection
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2028,-1675,Projection
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2028,-8.1,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2028,922.9,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2028,4.5,Projection
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2028,3.96,Projection
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2028,818,Projection
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2028,5.2,Projection
+Debt sector,Debt,Central government debt,Percentage of GDP,2028,73.2,Projection
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2028,13.6,Projection
+Debt sector,Debt,Central government external debt,Percentage of GDP,2028,59.6,Projection
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2028,6559.9,Projection
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2028,21.1,Projection
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2028,5137.5,Projection
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2028,16.6,Projection
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2028,708.5,Projection
+Fiscal sector,Revenue,Grants,Percentage of GDP,2028,2.3,Projection
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2028,7494,Projection
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2028,24.1,Projection
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2028,4912.3,Projection
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2028,15.8,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2028,-934,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2028,-3.6,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2028,-6.14,Projection
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2028,10010,Projection
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2028,18,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2028,8112,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2028,16.8,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2028,1494.92,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2028,-6,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2028,1688,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2028,6,Projection
+Other memo items,Population,Population,"Million, Level",2028,15.1,Projection
+Other memo items,Population,Annual change in population,%,2028,2.2,Projection
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2028,1371,Projection
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2028,,Projection
+Other memo items,Laborforce,Working age population,16+ years,2028,,Projection
+Other memo items,Laborforce,Labour force participation rate,%,2028,,Projection
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2029,36909,Projection
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2029,22562,Projection
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2029,17673,Projection
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2029,3440,Projection
+Real Sector,GDP and components,Industry GDP,Constant prices,2029,3774,Projection
+Real Sector,GDP and components,Services,Constant prices,2029,8808,Projection
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2029,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2029,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2029,5,Projection
+Real Sector,GDP and components,Total investment,Percentage of GDP,2029,30.8,Projection
+Real Sector,GDP and components,Government investment,Percetange of GDP,2029,7.1,Projection
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2029,23.7,Projection
+Real Sector,GDP and components,National savings,Percentage of GDP,2029,22.3,Projection
+Real Sector,GDP and components,Government savings,Percetange of GDP,2029,3.2,Projection
+Real Sector,GDP and components,Private savings,Percentage of GDP,2029,19.2,Projection
+External sector,Exports,Exports of goods,"Million USD, Level",2029,4535.2,Projection
+External sector,Exports,Exports of services,"Million USD, Level",2029,1489.7,Projection
+External sector,Exports,Exports of goods & services,"Million USD, Level",2029,6025,Projection
+External sector,Exports,Exports of goods & services,Percentage of GDP,2029,26.7,Projection
+External sector,Imports,Imports of goods,"Million USD, Level",2029,6543.2,Projection
+External sector,Imports,Imports of services,"Million USD,Level",2029,1283.5,Projection
+External sector,Imports,Imports of goods & services,"Million USD, Level",2029,7826.7,Projection
+External sector,Imports,Imports of goods & services,Percentage of GDP,2029,34.7,Projection
+External sector,Trade balance,Trade balance,"Million USD, Level",2029,-2008,Projection
+External sector,Trade balance,Trade balance,Percentage of GDP,2029,-8.9,Projection
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2029,-1653,Projection
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2029,-7.3,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2029,884.9,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2029,3.9,Projection
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2029,3.95,Projection
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2029,891.6,Projection
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2029,5.3,Projection
+Debt sector,Debt,Central government debt,Percentage of GDP,2029,71,Projection
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2029,13.2,Projection
+Debt sector,Debt,Central government external debt,Percentage of GDP,2029,57.8,Projection
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2029,7393.2,Projection
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2029,21.2,Projection
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2029,5849.9,Projection
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2029,16.8,Projection
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2029,764.5,Projection
+Fiscal sector,Revenue,Grants,Percentage of GDP,2029,2.2,Projection
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2029,8370.2,Projection
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2029,24,Projection
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2029,5446,Projection
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2029,15.6,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2029,-977,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2029,-3.2,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2029,-5.7,Projection
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2029,11972,Projection
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2029,20,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2029,9498,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2029,16.9,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2029,1419.03,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2029,-5,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2029,1767,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2029,5,Projection
+Other memo items,Population,Population,"Million, Level",2029,15.4,Projection
+Other memo items,Population,Annual change in population,%,2029,2.2,Projection
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2029,1465,Projection
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2029,,Projection
+Other memo items,Laborforce,Working age population,16+ years,2029,,Projection
+Other memo items,Laborforce,Labour force participation rate,%,2029,,Projection
+Real Sector,GDP and components,Nominal GDP,"Billion RWF, Level",2030,41400,Projection
+Real Sector,GDP and components,Nominal GDP,"Million USD, Level",2030,24690,Projection
+Real Sector,GDP and components,Real GDP,"Billion RWF, Level",2030,18903,Projection
+Real Sector,GDP and components,Agriculture GDP,Constant prices,2030,3629,Projection
+Real Sector,GDP and components,Industry GDP,Constant prices,2030,4118,Projection
+Real Sector,GDP and components,Services,Constant prices,2030,9373,Projection
+Real Sector,Inflation and other prices,GDP deflator,Percentage,2030,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, eop",2030,5,Projection
+Real Sector,Inflation and other prices,Consumer Price Index,"CPI, Percentage, pa",2030,5,Projection
+Real Sector,GDP and components,Total investment,Percentage of GDP,2030,29,Projection
+Real Sector,GDP and components,Government investment,Percetange of GDP,2030,6.7,Projection
+Real Sector,GDP and components,Private Investment,Percentage of GDP,2030,22.3,Projection
+Real Sector,GDP and components,National savings,Percentage of GDP,2030,21.2,Projection
+Real Sector,GDP and components,Government savings,Percetange of GDP,2030,-2.5,Projection
+Real Sector,GDP and components,Private savings,Percentage of GDP,2030,23.6,Projection
+External sector,Exports,Exports of goods,"Million USD, Level",2030,4706.6,Projection
+External sector,Exports,Exports of services,"Million USD, Level",2030,1482.6,Projection
+External sector,Exports,Exports of goods & services,"Million USD, Level",2030,6189,Projection
+External sector,Exports,Exports of goods & services,Percentage of GDP,2030,25.1,Projection
+External sector,Imports,Imports of goods,"Million USD, Level",2030,6507.3,Projection
+External sector,Imports,Imports of services,"Million USD,Level",2030,1286.4,Projection
+External sector,Imports,Imports of goods & services,"Million USD, Level",2030,7793.6,Projection
+External sector,Imports,Imports of goods & services,Percentage of GDP,2030,31.6,Projection
+External sector,Trade balance,Trade balance,"Million USD, Level",2030,-1801,Projection
+External sector,Trade balance,Trade balance,Percentage of GDP,2030,-7.3,Projection
+External sector,Current Account Balance,Current Account Balance,"Million USD, Level",2030,-1531,Projection
+External sector,Current Account Balance,Current Account Balance,Percentage of GDP,2030,-6.2,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Million USD, Level",2030,809.6,Projection
+External sector,FDI,Foreign Direct Investment,"FDI, Percetantage of GDP",2030,3.3,Projection
+External sector,Tourism,Tourism Receipts,Percentage of GDP,2030,3.56,Projection
+External sector,Tourism,Tourism Receipts,"Million USD, Level",2030,878.4,Projection
+External sector,Reserves,Gross official reserves,"Million USD, Months of imports",2030,5.4,Projection
+Debt sector,Debt,Central government debt,Percentage of GDP,2030,70.4,Projection
+Debt sector,Debt,Central government domestic debt,Percentage of GDP,2030,13,Projection
+Debt sector,Debt,Central government external debt,Percentage of GDP,2030,57.4,Projection
+Fiscal sector,Revenue,Revenues incl. grants,"Billion FRW, Level",2030,8361.9,Projection
+Fiscal sector,Revenue,Revenues incl. grants,Percentage of GDP,2030,21.4,Projection
+Fiscal sector,Revenue,Tax revenue,"Billion RWF, Level",2030,6615.877052,Projection
+Fiscal sector,Revenue,Tax revenue,Percentage of GDP,2030,17,Projection
+Fiscal sector,Revenue,Grants,"Billion RWF, Level",2030,822.8,Projection
+Fiscal sector,Revenue,Grants,Percentage of GDP,2030,2.1,Projection
+Fiscal sector,Expenditure,Expenditure,"Billion RWF, Level",2030,9461.9,Projection
+Fiscal sector,Expenditure,Expenditure,Percentage of GDP,2030,24.2,Projection
+Fiscal sector,Expenditure,Expense,"Billion RWF, Level",2030,6170,Projection
+Fiscal sector,Expenditure,Expense,Percentage of GDP,2030,15.8,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Billion FRW, Level",2030,-1100,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,Percentage of GDP,2030,-3.2,Projection
+Fiscal sector,Fiscal balance,Fiscal Balance/Deficit,"Exl, grants, Percentage of GDP",2030,-5.62,Projection
+Monetary sector,Broad money,Broad Money,"M3, Million USD, Level",2030,14034,Projection
+Monetary sector,Broad money,Broad Money,"M3, Percentage change",2030,17,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS Million USD, Level",2030,11212,Projection
+Monetary sector,Credit to private Sector,Credit Private Sector,"CPS, Percentage change",2030,17.8,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Million USD, Level",2030,1391.64,Projection
+Monetary sector,Credit to Govt,Credit Government,"CG, Percentage change",2030,-2,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Level",2030,1829,Projection
+Monetary sector,Exchange rate,Exchange rate,"RWF/USD, Percentage change",2030,4,Projection
+Other memo items,Population,Population,"Million, Level",2030,15.7,Projection
+Other memo items,Population,Annual change in population,%,2030,2.2,Projection
+Real Sector,GDP and components,Nominal GDP per capita,"USD, Level",2030,1569,Projection
+Other memo items,Laborforce,Employement to population,"Ratio, percent",2030,,Projection
+Other memo items,Laborforce,Working age population,16+ years,2030,,Projection
+Other memo items,Laborforce,Labour force participation rate,%,2030,,Projection
