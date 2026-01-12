@@ -21,4 +21,4 @@ Clear usage instructions in the README describing how the product is intended to
 #### 2. command prompt (CMD):
 1. set the main project path as in local computer i.e., D:\Documents\AIMS_DSCBI\Projects\MINECOFIN\Macro_Dashboard. Therefore, you can access main folder structure as described earlier above
 2. go to scripts folder i.e., D:\Documents\AIMS_DSCBI\Projects\MINECOFIN\Macro_Dashboard cd src:
-3. then type "python app.py"
+3. then type "python app.py", find and click the link (dashboard URL) displayed in the results to get to the dashboard
